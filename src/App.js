@@ -1,13 +1,8 @@
 import React from "react";
 import "./App.css";
 
-import img from "./assets/Anotação 2019-07-27 092930.png";
+import TechList from "./components/TechList";
 
-const App = () => (
-  <>
-    <h1>AOPA</h1>
-    <img src={img} />
-  </>
-);
+const App = () => <TechList />;
 
 export default App;
